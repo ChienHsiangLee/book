@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/0.9.0" xmi:id="_cst9MNxtEeGV3eCf7NvZiQ">
+  <modelElement href="bookstore.uml#_cKwfoNxtEeGV3eCf7NvZiQ"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ehf4ENxuEeGV3eCf7NvZiQ" name="ProductDao">
+    <modelElement href="bookstore.uml#_efzO8NxuEeGV3eCf7NvZiQ"/>
+    <visualProperties xmi:id="_ehgfINxuEeGV3eCf7NvZiQ" position="926.0,111.0"/>
+    <visibility xmi:id="_ehf4EdxuEeGV3eCf7NvZiQ" label="+"/>
+    <operations xmi:id="_ehf4EtxuEeGV3eCf7NvZiQ" name="findByProductNo">
+      <modelElement href="bookstore.uml#_ef7x0NxuEeGV3eCf7NvZiQ"/>
+      <visibility xmi:id="_ehf4E9xuEeGV3eCf7NvZiQ" label="+"/>
+      <outParameters xmi:id="_ehf4FNxuEeGV3eCf7NvZiQ">
+        <modelElement href="bookstore.uml#_egB4cdxuEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_ehf4FdxuEeGV3eCf7NvZiQ" name="Product">
+          <modelElement href="bookstore.uml#_cOP4gNxtEeGV3eCf7NvZiQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ehf4FtxuEeGV3eCf7NvZiQ" name="pNo">
+        <modelElement href="bookstore.uml#_ef7x0dxuEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_ehf4F9xuEeGV3eCf7NvZiQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ehf4GNxuEeGV3eCf7NvZiQ" name="insert">
+      <modelElement href="bookstore.uml#_egAqUNxuEeGV3eCf7NvZiQ"/>
+      <visibility xmi:id="_ehf4GdxuEeGV3eCf7NvZiQ" label="+"/>
+      <parameters xmi:id="_ehf4GtxuEeGV3eCf7NvZiQ" name="product">
+        <modelElement href="bookstore.uml#_egAqUdxuEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_ehf4G9xuEeGV3eCf7NvZiQ" name="Product">
+          <modelElement href="bookstore.uml#_cOP4gNxtEeGV3eCf7NvZiQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ehf4HNxuEeGV3eCf7NvZiQ" name="update">
+      <modelElement href="bookstore.uml#_egBRYNxuEeGV3eCf7NvZiQ"/>
+      <visibility xmi:id="_ehf4HdxuEeGV3eCf7NvZiQ" label="+"/>
+      <parameters xmi:id="_ehf4HtxuEeGV3eCf7NvZiQ" name="product">
+        <modelElement href="bookstore.uml#_egBRYdxuEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_ehf4H9xuEeGV3eCf7NvZiQ" name="Product">
+          <modelElement href="bookstore.uml#_cOP4gNxtEeGV3eCf7NvZiQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ehf4INxuEeGV3eCf7NvZiQ" name="delete">
+      <modelElement href="bookstore.uml#_egBRYtxuEeGV3eCf7NvZiQ"/>
+      <visibility xmi:id="_ehf4IdxuEeGV3eCf7NvZiQ" label="+"/>
+      <parameters xmi:id="_ehf4ItxuEeGV3eCf7NvZiQ" name="product">
+        <modelElement href="bookstore.uml#_egB4cNxuEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_ehf4I9xuEeGV3eCf7NvZiQ" name="Product">
+          <modelElement href="bookstore.uml#_cOP4gNxtEeGV3eCf7NvZiQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5YT-8NxtEeGV3eCf7NvZiQ" name="Book">
+    <modelElement href="bookstore.uml#_cN3eANxtEeGV3eCf7NvZiQ"/>
+    <visualProperties xmi:id="_5YWbMNxtEeGV3eCf7NvZiQ" position="31.0,160.0"/>
+    <visibility xmi:id="_5YT-8dxtEeGV3eCf7NvZiQ" label="+"/>
+    <attributes xmi:id="_5YT-8txtEeGV3eCf7NvZiQ" defaultValue="&quot;&quot;" name="author">
+      <modelElement href="bookstore.uml#_cSvW8NxtEeGV3eCf7NvZiQ"/>
+      <visibility xmi:id="_5YT-89xtEeGV3eCf7NvZiQ" label="+"/>
+      <cardinality xmi:id="_5YT-9NxtEeGV3eCf7NvZiQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5YT-9dxtEeGV3eCf7NvZiQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5YT-9txtEeGV3eCf7NvZiQ" defaultValue="&quot;&quot;" name="ISBN">
+      <modelElement href="bookstore.uml#_cSv-ANxtEeGV3eCf7NvZiQ"/>
+      <visibility xmi:id="_5YT-99xtEeGV3eCf7NvZiQ" label="+"/>
+      <cardinality xmi:id="_5YT--NxtEeGV3eCf7NvZiQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5YT--dxtEeGV3eCf7NvZiQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5YT--txtEeGV3eCf7NvZiQ" defaultValue="1" name="edition">
+      <modelElement href="bookstore.uml#_cSwlENxtEeGV3eCf7NvZiQ"/>
+      <visibility xmi:id="_5YT--9xtEeGV3eCf7NvZiQ" label="+"/>
+      <cardinality xmi:id="_5YT-_NxtEeGV3eCf7NvZiQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5YT-_dxtEeGV3eCf7NvZiQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5YT-_txtEeGV3eCf7NvZiQ" defaultValue="&quot;&quot;" name="publisher">
+      <modelElement href="bookstore.uml#_cSwlEtxtEeGV3eCf7NvZiQ"/>
+      <visibility xmi:id="_5YT-_9xtEeGV3eCf7NvZiQ" label="+"/>
+      <cardinality xmi:id="_5YT_ANxtEeGV3eCf7NvZiQ" label="1" max="1" min="1"/>
+      <type xmi:id="_5YT_AdxtEeGV3eCf7NvZiQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5YT_AtxtEeGV3eCf7NvZiQ" name="Book">
+      <modelElement href="bookstore.uml#_cN4sINxtEeGV3eCf7NvZiQ"/>
+      <keywords xmi:id="_5YT_A9xtEeGV3eCf7NvZiQ" keyword="create"/>
+      <visibility xmi:id="_5YT_BNxtEeGV3eCf7NvZiQ" label="+"/>
+      <outParameters xmi:id="_5YT_BdxtEeGV3eCf7NvZiQ">
+        <modelElement href="bookstore.uml#_cN5TMtxtEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_5YT_BtxtEeGV3eCf7NvZiQ" name="Book">
+          <modelElement href="bookstore.uml#_cN3eANxtEeGV3eCf7NvZiQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5YT_B9xtEeGV3eCf7NvZiQ" name="initiate">
+      <modelElement href="bookstore.uml#_cN6hUNxtEeGV3eCf7NvZiQ"/>
+      <stereotypes xmi:id="_5YT_CNxtEeGV3eCf7NvZiQ" name="LegacyStyledElement">
+        <modelElement href="bookstore.uml#_cN7vcNxtEeGV3eCf7NvZiQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5YT_CdxtEeGV3eCf7NvZiQ" name="Annotations">
+        <modelElement href="bookstore.uml#_cN8WgNxtEeGV3eCf7NvZiQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5YT_CtxtEeGV3eCf7NvZiQ" label="+"/>
+      <outParameters xmi:id="_5YT_C9xtEeGV3eCf7NvZiQ">
+        <modelElement href="bookstore.uml#_cN7IYdxtEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_5YT_DNxtEeGV3eCf7NvZiQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5YT_DdxtEeGV3eCf7NvZiQ" name="pNo">
+        <modelElement href="bookstore.uml#_cN7IYNxtEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_5YT_DtxtEeGV3eCf7NvZiQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5YT_D9xtEeGV3eCf7NvZiQ" name="delete">
+      <modelElement href="bookstore.uml#_cN8WgtxtEeGV3eCf7NvZiQ"/>
+      <stereotypes xmi:id="_5YT_ENxtEeGV3eCf7NvZiQ" name="LegacyStyledElement">
+        <modelElement href="bookstore.uml#_cN9koNxtEeGV3eCf7NvZiQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5YT_EdxtEeGV3eCf7NvZiQ" name="Annotations">
+        <modelElement href="bookstore.uml#_cN9kodxtEeGV3eCf7NvZiQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5YT_EtxtEeGV3eCf7NvZiQ" label="+"/>
+      <outParameters xmi:id="_5YT_E9xtEeGV3eCf7NvZiQ">
+        <modelElement href="bookstore.uml#_cN89kNxtEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_5YT_FNxtEeGV3eCf7NvZiQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5YUmANxtEeGV3eCf7NvZiQ" name="update">
+      <modelElement href="bookstore.uml#_cN9ko9xtEeGV3eCf7NvZiQ"/>
+      <stereotypes xmi:id="_5YUmAdxtEeGV3eCf7NvZiQ" name="LegacyStyledElement">
+        <modelElement href="bookstore.uml#_cN-ywNxtEeGV3eCf7NvZiQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5YUmAtxtEeGV3eCf7NvZiQ" name="Annotations">
+        <modelElement href="bookstore.uml#_cN-ywdxtEeGV3eCf7NvZiQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5YUmA9xtEeGV3eCf7NvZiQ" label="+"/>
+      <outParameters xmi:id="_5YUmBNxtEeGV3eCf7NvZiQ">
+        <modelElement href="bookstore.uml#_cN-LsNxtEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_5YUmBdxtEeGV3eCf7NvZiQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5YUmBtxtEeGV3eCf7NvZiQ" name="insert">
+      <modelElement href="bookstore.uml#_cN_Z0dxtEeGV3eCf7NvZiQ"/>
+      <stereotypes xmi:id="_5YUmB9xtEeGV3eCf7NvZiQ" name="LegacyStyledElement">
+        <modelElement href="bookstore.uml#_cOAA4NxtEeGV3eCf7NvZiQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_5YUmCNxtEeGV3eCf7NvZiQ" name="Annotations">
+        <modelElement href="bookstore.uml#_cOAn8NxtEeGV3eCf7NvZiQ"/>
+      </stereotypes>
+      <visibility xmi:id="_5YUmCdxtEeGV3eCf7NvZiQ" label="+"/>
+      <outParameters xmi:id="_5YUmCtxtEeGV3eCf7NvZiQ">
+        <modelElement href="bookstore.uml#_cN_Z0txtEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_5YUmC9xtEeGV3eCf7NvZiQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5YUmDNxtEeGV3eCf7NvZiQ" name="Book">
+      <modelElement href="bookstore.uml#_cRVowNxtEeGV3eCf7NvZiQ"/>
+      <keywords xmi:id="_5YUmDdxtEeGV3eCf7NvZiQ" keyword="create"/>
+      <visibility xmi:id="_5YUmDtxtEeGV3eCf7NvZiQ" label="+"/>
+      <outParameters xmi:id="_5YUmD9xtEeGV3eCf7NvZiQ">
+        <modelElement href="bookstore.uml#_cRWP0NxtEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_5YUmENxtEeGV3eCf7NvZiQ" name="Book">
+          <modelElement href="bookstore.uml#_cN3eANxtEeGV3eCf7NvZiQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5YUmEdxtEeGV3eCf7NvZiQ" name="pNo">
+        <modelElement href="bookstore.uml#_cRVowdxtEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_5YUmEtxtEeGV3eCf7NvZiQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5YUmE9xtEeGV3eCf7NvZiQ" name="dao">
+        <modelElement href="bookstore.uml#_cRVowtxtEeGV3eCf7NvZiQ"/>
+        <type xmi:id="_5YUmFNxtEeGV3eCf7NvZiQ" name="DataSource">
+          <modelElement href="bookstore.uml#_cOzSINxtEeGV3eCf7NvZiQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
