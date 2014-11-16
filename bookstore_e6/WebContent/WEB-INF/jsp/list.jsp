@@ -8,17 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Show product listing</title>
-<style>
-h1 {color: blue; font-size: 2em; text-align: center;}
-h2 {color: blue; font-size: 1.5em; text-align: center;}
-p {color: red;}
-form {text-align:center;}
-table.frame {margin: 20px auto; border: 2px solid black;}
-td, th {padding: 10px; border: 1px solid black; text-align: left;}
-.headrow {color: black; background-color: #0099CC; text-align: center;}
-.evenrow {color: black; background-color: #00FFCC;}
-td.subtitle {color: #660033; font-size: 20px;}
-</style>
+<link href="<c:url value="/resources/css/mystyle.css" />" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<h1>
